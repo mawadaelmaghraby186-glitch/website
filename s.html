@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<head>
+    <title>log in</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+<h1>Hello...</h1>
+<label for="full name">full name</label>
+<input type="text" id="fullname">
+<br><br>
+<label for="email">email</label>
+<input type="email" id="email">
+<br><br>
+<label for="password">password</label>
+<input type="password" id="password">
+<br><br>
+<button type= "button" onclick="submitForm()"> submit</button>
+
+
+<script>
+function submitForm() {
+
+var name = document.getElementById("fullname").value;
+var email = document.getElementById("email").value;
+var password = document.getElementById("password").value;
+
+alert("login successeful ");
+open("https://www.shein.com");
+}
+
+</script>
+</html>
